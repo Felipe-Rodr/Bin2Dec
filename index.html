@@ -7,11 +7,14 @@
         <title>Bin2Dec</title>
     </head>
 
-    <body>
-        <h1>Binarios para decimais:</h1>
-        <form>
-            <label for="NumeroBinario">Numero binario a ser convertido</label><br>
-            <input type="text" id="NumeroBinario" name="NumeroBinario"><br>
-        </form>
+    <body id="home">
+        <div id="container">
+            <h1>Binarios para decimais:</h1>
+            <form id="Conversao" action="./Scripts/Scripts.js">
+                <label for="NumeroBinario">Numero binario a ser convertido</label><br>
+                <input type="text" id="NumeroBinario" name="NumeroBinario"><br>
+                <input type="button" onclick="Converter()" value="Submit">
+            </form>
+        </div>
     </body>
 </html>

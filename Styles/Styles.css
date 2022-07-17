@@ -1,0 +1,31 @@
+#home {
+    background-color:rgba(49, 80, 105, 0.904);
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 250px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

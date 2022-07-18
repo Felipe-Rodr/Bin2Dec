@@ -1,5 +1,5 @@
 function Converter(){
-    NumeroBinario = document.getElementById("Conversao");
+    NumeroBinario = document.getElementById("NumeroBinario").value;
     ValorDecimal = 0;
     for(let i=0; i<NumeroBinario.length; i++){
         if(NumeroBinario[i] == 0){
@@ -8,5 +8,5 @@ function Converter(){
             ValorDecimal += Math.pow(2,i);
         }
     }
-    return ValorDecimal;
+    document.getElementById('resultado').innerHTML = 'Valor Decimal: ' + ValorDecimal;
 }
